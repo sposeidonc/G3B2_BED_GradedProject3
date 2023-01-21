@@ -1,0 +1,16 @@
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: admin
+    password: admin
+    url: jdbc:h2:mem:ticketTracker
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    properties:
+      hibernate:
+        properties: 
+          format-sql: true
